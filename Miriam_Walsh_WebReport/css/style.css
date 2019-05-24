@@ -30,29 +30,29 @@ h3{
 /*Styling of body of homepage*/
 .theme-home{
 /*Image for the background, has been formatted to a smaller size so bandwidth will not be affected LINK BB*/
-/*Image taken from online source, Tumarkin, S,(2018), mentioned in Bib. section. */	
-	background-image: url("../images/skysmall.JPG");
+/*Image taken from online source, Tumarkin, S,(2018), mentioned in Bib. section. */
+	background-image: url("/images/skysmall.JPG");
 /*Cover background of webpage with image*/
 	background-size: cover;
 	}
 .theme-about{
 /*Background color gradient, helped with use of a Hex code website, referenced in Bib. section W3 Schools, (2018). */
-	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);	
-}	
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
 .theme-bb{
-/*Image for the background, has been formatted to a smaller size so bandwidth will not be affected LINK BB*/	
+/*Image for the background, has been formatted to a smaller size so bandwidth will not be affected LINK BB*/
 	background-image: url("../images/skysmall.JPG");
 /*Cover background of webpage with image*/
 	background-size: cover;
-	}	
+	}
 /*********** HEADER STYLING *********/
 .theme-header{
 /*White background for header section*/
 	background: #fff;
 }
-/*pseudo class - creates a block for the logo in the header section to appear correctly*/	
-.theme-header::after{ 
-/*Creates empty space to clear, Code learned from W3 Schools (2018) referenced in Bib. Section */		
+/*pseudo class - creates a block for the logo in the header section to appear correctly*/
+.theme-header::after{
+/*Creates empty space to clear, Code learned from W3 Schools (2018) referenced in Bib. Section */
 	content: "  ";
 /*Clears floated elements so that left and right are both cleared */
 	clear: both;
@@ -72,15 +72,15 @@ h3{
 	}
 /*Class for the Navigation/Unordered list styling*/
 .theme-nav ul{
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
 /*pushes the nav to the left*/
-	margin-left: 70px; 
+	margin-left: 70px;
 	}
 .theme-nav ul li{
 /*Display the navigation panel in line*/
 	display: inline-block;
-	padding: 5px 5px;	
-	}	
+	padding: 5px 5px;
+	}
 .theme-nav ul li a{
 /*Select a elements within the list   */
 	display: 10px 20px;
@@ -94,22 +94,22 @@ h3{
 .theme-nav ul li a:hover{
 	color: #3e99ff;  /*a light blue hex color*/
 	}
-/*****CONTAINER STYLING****/	
-/*Container class to style the entire page container within a div */ 
+/*****CONTAINER STYLING****/
+/*Container class to style the entire page container within a div */
 .container{
 /*Sets max with of the container*/
 	max-width: 1000px;
 /*order: top/Bottom =0; Left/right auto, left and right margin will take auto margin according to the width of the element and the width of the container.*/
 	margin: 0 auto;
-	}	
-/*Styling of the Div to contain main content of the page*/	
+	}
+/*Styling of the Div to contain main content of the page*/
 .theme-content{
 	margin-top: 30px;
 	margin-bottom:30px;
 /*improve the browser's handling of small windows if necessary with the max-width property*/
 	max-width: 65%;
 	float: right;
-	}	
+	}
 p{
 	margin-bottom: 20px;
 /*Justify text so that the web pages are more user friendly and readable*/
@@ -118,15 +118,15 @@ p{
 	line-height: 25px;
 	}
 /*Style first letter of every paragraph with a large font*/
-article p::first-letter { 
+article p::first-letter {
     font-size: 150%;
     color: #8A2BE2;
 	}
 /*Style headings with a bottom margin*/
 h1, h2, h3, h4, h5, h6{
-	margin-bottom: 10px; 	
+	margin-bottom: 10px;
 	}
-/*Unordered list styling*/ 
+/*Unordered list styling*/
 ul{
 	margin-left: 20px;
 	margin-bottom: 20px;
@@ -135,25 +135,25 @@ ul{
 img{
 	display: block;
 /*Make image responsive with the max -width element*/
-	max-width: 100%; 
-	margin-left:20px;	
+	max-width: 100%;
+	margin-left:20px;
 	}
 /*Space between the figure and the next section*/
 .figureSpace{
 	margin-bottom: 20px;
 	}
-.theme-sidebar{ 
+.theme-sidebar{
 /*Set margins so that there is a visual space on the page top and bottom*/
 	margin-top: 60px;
 	margin-bottom:30px;
 	max-width: 30%;
 /*Float of left of the page*/
 	float: left;
-	width: 30%;	
+	width: 30%;
 	}
 /*Remove the underline from the links in sidebar*/
-.theme-sidebar a{ 
-	text-decoration: none;	
+.theme-sidebar a{
+	text-decoration: none;
 	}
 /*The following pseudo classes code alters the color of the links*/
 .theme-sidebar a:link {
@@ -183,7 +183,7 @@ img{
 		/* order: x offset, y offset, blur size, spread size, color*/
         0 0 30px 15px #fff,  /* inner white */
         0 0 50px 30px #fff, /* middle white */
-        0 0 35px 22px #78BEE6; /* outer light blue, hex number got from hex color finder  */		
+        0 0 35px 22px #78BEE6; /* outer light blue, hex number got from hex color finder  */
 	}
 /*Remove the bullet points from the List in sidebar*/
 .theme-sidebar li{
@@ -194,7 +194,7 @@ img{
 .styleHeading{
 /*Centering the text was not an option as it looked off, therefore a small margin of 40 px worked better*/
 	margin-left: 40px;
-	}	
+	}
 .theme-article{
 	background: #fff;
 	padding: 30px;
@@ -204,8 +204,8 @@ img{
 	padding: 0px;
 	}
 /* Clearfix a , referenced in bib section, W3 Schools,(2018)  */
-.clearfix::after{ 
-/*pseudo class - creates a block for the logo in the header section to appear correctly*/		
+.clearfix::after{
+/*pseudo class - creates a block for the logo in the header section to appear correctly*/
 	content: "  ";
 /*clear both left and right of float elements */
 	clear: both;
@@ -226,12 +226,12 @@ img{
 	border-style: none;
 	background-color: white;
 /* Creates 20px of space between the bottom of the Definition box to the next section */
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
 	}
 /*Style h3 heading of definitions box title*/
 .theme-definitions h3{
 	font-weight: bold;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 	}
 /*Style definition term */
 .theme-definitions dt{
@@ -242,7 +242,7 @@ img{
 /*Style definitions*/
 .theme-definitions dd{
 	padding-left: 55px;
-	font-weight: bold;	
+	font-weight: bold;
 	}
 /********URL ANATOMY BOX *********/
 .URLBox{
@@ -264,7 +264,7 @@ img{
 /*Pseudo class to put colon after definition term*/
  .theme-URL dt::after{
     content: ":";
-    }	
+    }
 .theme-URL dd{
 /*Style definitions after the colon with spacing equivalent to a table */
     margin: 0 0 0 110px;
@@ -293,7 +293,7 @@ img{
 	}
 .bbList{
     margin:1em;
-    padding:0 0 0 1em; 
+    padding:0 0 0 1em;
 /*clears margin for the li elements*/
     overflow:hidden;
 	}
@@ -303,12 +303,12 @@ img{
 	padding: 35px;
 	}
 /*Same as before, make the first letter big in each paragraph using pseudo class first-letter*/
-.theme-Me p::first-letter { 
+.theme-Me p::first-letter {
     font-size: 150%;
     color: #8A2BE2;
 	}
 .theme-photos{
-/*Float the photo aside to the right*/ 
+/*Float the photo aside to the right*/
 	float: right;
 /*30% max-width gives space for the main section*/
 	max-width: 30%;
@@ -329,5 +329,3 @@ img{
 /*float to the left of the page*/
 	float: left;
 	}
-
-	
