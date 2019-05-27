@@ -31,7 +31,7 @@ h3{
 .theme-home{
 /*Image for the background, has been formatted to a smaller size so bandwidth will not be affected LINK BB*/
 /*Image taken from online source, Tumarkin, S,(2018), mentioned in Bib. section. */
-	background-image: url("images/skysmall.jpg");
+	background-image: url("skysmall.jpg");
 /*Cover background of webpage with image*/
 	background-size: cover;
 	}
@@ -41,7 +41,7 @@ h3{
 }
 .theme-bb{
 /*Image for the background, has been formatted to a smaller size so bandwidth will not be affected LINK BB*/
-	background-image: url("images/skysmall.jpg");
+	background-image: url("skysmall.jpg");
 /*Cover background of webpage with image*/
 	background-size: cover;
 	}
